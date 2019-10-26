@@ -1,0 +1,11 @@
+#include<stdlib.h>
+#include<unistd.h>
+#include<stdio.h>
+int 
+main(void)
+{
+	sleep(2);
+	putc('c',stdout);
+	sleep(2);
+	putc('c',stdout);
+}
